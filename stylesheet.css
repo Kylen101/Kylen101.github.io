@@ -134,3 +134,6 @@ a:active {
 img {
   border-radius: 20%
 }
+body {
+  margin: auto;
+}
