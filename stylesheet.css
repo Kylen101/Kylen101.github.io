@@ -131,3 +131,6 @@ a:active {
     animation-duration:1s;
   }
 }
+img {
+  border-radius: 20%
+}
