@@ -1,4 +1,133 @@
 /*wagabagabobo*/
 body {
   background: linear-gradient(fuchsia, #5a435e, #5bff0f);
+
+  max-width: 80%;
+  margin: auto;
+}
+.sus-container {
+  display: flex;
+  background-color: #b39791;
+}
+
+.sus-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+ul {
+  text-align: right;
+}
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: white;
+}
+.goofy h2 {
+  font-family: "Lucida Handwriting", "Brush Script MT";
+}
+.goofy {
+  width: 75%;
+}
+.redcrewmate {
+  width: 300px;
+  height: 100px;
+  animation-name: redmoving;
+  animation-duration: 0.5s;
+  animation-timing-function: linear ;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes redmoving {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translate(300px);
+  }
+}
+.rainbow {
+  text-align: center;
+  font-size: 52px;
+  transition: font-size 5s;
+  font-family: "Brush Script MT", cursive;
+  letter-spacing: 5px;
+  text-shadow: 1px 3px 4px #a99;
+  animation: colorRotate 3s linear 0s infinite;
+}
+.rainbow:hover {
+  font-size: 200px;
+}
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+.susgallery {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(90deg, rgb(255, 0, 0) 15%, rgb(0, 255, 0));
+}
+.lightmode{
+  color:white;
+  margin:5px 5px 5px 5px;
+}
+.lightmodediv{
+  background:green;
+  padding: 10px;
+  display:flex;
+  border-radius:15px;
+}
+.reactions {
+  display: flex;
+  justify-content:center;
+  align-items:column;
+  flex-direction:column;
+  padding: 10px;
+  background-color:purple;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spinanim {
+  width: 100px;
+  height: 100px;
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@media only screen and (max-width: 600px) {
+  .redcrewmate{
+    animation-duration:1s;
+  }
 }
