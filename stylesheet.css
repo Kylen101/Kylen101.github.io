@@ -137,3 +137,12 @@ img {
 body {
   margin: auto;
 }
+
+main {
+  background-color: yellow;
+  padding: 30px;
+  border-radius: 20%
+  margin: auto;
+  width: 400px;
+  max-width: 500px;
+}
