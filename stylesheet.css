@@ -139,3 +139,16 @@ img {
 body {
   margin: auto;
 }
+img {
+  border-radius: 25px;
+}
+img:hover {
+  border-radius: 200px;
+  padding: 0px;
+}
+img {
+  border: 4px solid #03f4fc;
+}
+img {
+  transition: border-radius 2s;
+}
