@@ -139,16 +139,16 @@ img {
 body {
   margin: auto;
 }
-img {
+.car2 {
   border-radius: 25px;
 }
-img:hover {
+.car2:hover {
   border-radius: 200px;
   padding: 0px;
 }
-img {
+.car2 {
   border: 4px solid #03f4fc;
 }
-img {
+.car2 {
   transition: border-radius 2s;
 }
