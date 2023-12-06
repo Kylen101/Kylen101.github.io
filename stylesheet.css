@@ -130,6 +130,13 @@ a:active {
   .backandforthanim{
     animation-duration:1s;
   }
+
+.item {
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 20px
+  margin: auto;
+}
 }
 img {
   border-radius: 20%
