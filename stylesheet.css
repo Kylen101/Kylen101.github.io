@@ -159,3 +159,12 @@ body {
 .car2 {
   transition: border-radius 2s;
 }
+
+@keyframes spinwheel {
+  
+  from{transform:rotate(0deg);}
+  to{transform:rotate(360deg);}
+}
+.wheel{
+  animation: spinwheel 20s linear infinite
+}
