@@ -5,3 +5,5 @@ function promptFunction() {
     "Hello " + namePrompt + "! I am going to beat you up!";
   }
 }
+let var1 = 20
+console.log(var1)
