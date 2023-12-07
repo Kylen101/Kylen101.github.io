@@ -170,3 +170,14 @@ body {
 .wheel{
   animation: spinwheel 20s linear infinite
 }
+
+.price {
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 20px
+  margin: auto;
+}
+
+.price {
+  width: 250px;
+}
