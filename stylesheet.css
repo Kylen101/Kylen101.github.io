@@ -164,10 +164,11 @@ body {
   border-radius: 20px
   margin: auto;
 }
-
+/*Dimension of the price list*/
 .price {
   width: 220px;
 }
+/*Makes the color of text black*/
 #vote {
   color: black;
 }
