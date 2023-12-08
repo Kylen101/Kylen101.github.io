@@ -168,3 +168,6 @@ body {
 .price {
   width: 220px;
 }
+#vote {
+  color: black;
+}
