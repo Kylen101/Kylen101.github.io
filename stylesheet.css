@@ -155,7 +155,7 @@ body {
   to{transform:rotate(360deg);}
 }
 .wheel{
-  animation: spinwheel 20s linear infinite
+  animation: spinwheel 10s linear infinite
 }
 /*price list of vehicles background*/
 .price {
