@@ -2,7 +2,6 @@
 
 body {
   background: linear-gradient(blue, white, grey);
-  overflow: hidden;
   max-width: 80%;
   margin: auto;
 }
@@ -176,6 +175,6 @@ body {
 canvas {
   top: 0;
   left: 0;
-  z-index: 0;
+  z-index: 1;
 }
 @import url('https://fonts.cdnfonts.com/css/highway-gothic');
