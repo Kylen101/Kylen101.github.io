@@ -11,12 +11,8 @@ setInterval(function () {
 
 }, 1500);
 //Truck
-const canvas = document.createElement("canvas");
+const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
-document.body.appendChild(canvas);
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
 //Add new function for each new shape type
 
 function drawRectangle(x, y, width, height, fillColor, strokeColor) {
