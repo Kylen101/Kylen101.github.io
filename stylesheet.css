@@ -164,7 +164,7 @@ canvas {
   background-color: yellow;
 }
 
-
+ /*transition of the wheel*/
 @keyframes spinwheel {
   
   from{transform:rotate(0deg);}
