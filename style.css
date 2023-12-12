@@ -1,0 +1,135 @@
+/*This is where the interesting background color comes from*/
+
+body {
+  background: linear-gradient(blue, white, grey);
+
+  max-width: 80%;
+  margin: auto;
+}
+ul {
+  text-align: right;
+}
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: white;
+}
+.goofy h2 {
+  font-family: "Lucida Handwriting", "Brush Script MT";
+}
+.goofy {
+  width: 75%;
+}
+.backandforthanim {
+  width: 300px;
+  height: 100px;
+  animation-name: redmoving;
+  animation-duration: 0.5s;
+  animation-timing-function: linear ;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+/*This makes the car go back and forth*/
+
+@keyframes redmoving {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translate(300px);
+  }
+}
+/*This is the code for the rainbow text*/
+.rainbow {
+  text-align: center;
+  font-size: 52px;
+  transition: font-size 5s;
+  font-family: "Brush Script MT", cursive;
+  letter-spacing: 5px;
+  text-shadow: 1px 3px 4px #a99;
+  animation: colorRotate 3s linear 0s infinite;
+}
+.rainbow:hover {
+  font-size: 200px;
+}
+/*This is the code for the colors of the rainbow text*/
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+/*This is for my paragraphs*/
+
+.lightmode{
+  color:white;
+  margin:5px 5px 5px 5px;
+}
+/*lightmode and lightmodediv go together*/
+.lightmodediv{
+  background:green;
+  padding: 10px;
+  display:flex;
+  border-radius:15px;
+}
+/*This is spinning code, currently unused*/
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spinanim {
+  width: 100px;
+  height: 100px;
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@media only screen and (max-width: 600px) {
+  .backandforthanim{
+    animation-duration:1s;
+  }
+  
+  
+  
+  
+  
+  
+  
+  body {
+ background-color:rgb(135,206,235);
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+@import url('https://fonts.cdnfonts.com/css/highway-gothic');
+
