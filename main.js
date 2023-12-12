@@ -92,6 +92,16 @@ drawOctagon(595, -124, 80, "Red", "Black");
 //Sign text
 drawText("60px Highway Gothic", "Stop", 535, 125,"White")
 
+   // changes the color of text from black to red
+let = isGreen = true
+setInterval(function () {
+  if (isGreen){
+    isGreen = false
+      document.getElementById("vote").style.color = "#fa0202";  
+  } else {
+    isGreen = true
+    document.getElementById("vote").style.color = "black";      
+  }
 
   requestAnimationFrame(cycle);
 }
