@@ -1,20 +1,5 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
-// function resizeCanvas() {
-//   //fit canvas to window and fix issues with canvas blur on zoom
-//   canvas.style.width = window.innerWidth + "px";
-//   canvas.style.height = window.innerHeight + "px";
-//   const scale = window.devicePixelRatio;
-//   canvas.width = window.innerWidth * scale;
-//   canvas.height = window.innerHeight * scale;
-//   ctx.scale(scale, scale);
-// }
-// resizeCanvas();
-// window.addEventListener("resize", resizeCanvas);
-
-//canvas commands  https://www.w3schools.com/tags/ref_canvas.asp
-//example drawings
-
 //Add new function for each new shape type
 
 function drawRectangle(x, y, width, height, fillColor, strokeColor) {
@@ -106,89 +91,8 @@ drawOctagon(595, -124, 80, "Red", "Black");
 //Sign text
 drawText("60px Highway Gothic", "Stop", 535, 125,"White")
 
-
-//     for (let x = 0; x < size; x+=30) {
-//         ctx.fillStyle = `hsl(${x+y},90%,50%)`
-//         ctx.fillRect(x, y, 30, 30)
-//     }
-// }
-
-//___________________get mouse input___________________
-
-// let mouse = {
-//   down: false,
-//   x: 0,
-//   y: 0
-// };
-// canvas.addEventListener("mousemove", event => {
-//   mouse.x = event.clientX;
-//   mouse.y = event.clientY;
-// });
-// canvas.addEventListener("mousedown", event => {
-//   mouse.down = true;
-//   // console.log(mouse);
-// });
-// canvas.addEventListener("mouseup", event => {
-//   mouse.down = false;
-// });
-
-//___________________get keyboard input___________________
-// ⇦73   ⇨39   ⇧38   ⇩40    W87   A65   S83   D68    spacebar 32
-// const keys = [];
-// document.onkeydown = event => {
-// 	keys[event.keyCode] = true;
-// 	console.log(event.keyCode);
-// }
-// document.onkeyup = event => {
-// 	keys[event.keyCode] = false;
-// }
-
-//___________________new key input method___________________
-// let left = false
-// let right = false
-// let up = false
-// let down = false
-
-// window.addEventListener("keyup", function(event) {
-//     switch (event.code) {
-//         case "ArrowRight":
-//             right = false
-//             break;
-//         case "ArrowLeft":
-//             left = false
-//             break;
-//         case "ArrowUp":
-//             up = false
-//             break;
-//         case "ArrowDown":
-//             down = false
-//             break;
-//     }
-// });
-
-// window.addEventListener("keydown", function(event) {
-//        switch (event.code) {
-//         case "ArrowRight":
-//             right = true
-//             break
-//         case "ArrowLeft":
-//             left = true
-//             break
-//         case "ArrowUp":
-//             up = true
-//             break
-//         case "ArrowDown":
-//             down = true
-//             break
-//     }
-// })
-
-//___________________animation loop ___________________
-
-
-//END TOP JAVASCRIPT
- 
-
   requestAnimationFrame(cycle);
 }
  requestAnimationFrame(cycle);
+
+//END TOP JAVASCRIPT
