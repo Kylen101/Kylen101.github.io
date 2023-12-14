@@ -98,7 +98,7 @@ drawText("60px Highway Gothic", "Stop", 540, 125,"White")
 }
  requestAnimationFrame(cycle);
 
-let = isGreen = true;
+let isGreen = true;
 setInterval(function () {
   if (isGreen) {
     isGreen = false;
