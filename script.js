@@ -76,8 +76,8 @@ drawCircle(400, 230, 50, "Black", "Black");
 drawCircle(100, 230, 40, "Grey", "Black");
 drawCircle(400, 230, 40, "Grey", "Black");
 //Car rectangles
-drawRectangle(310, 41, 20, 100, "Grey", "Grey");
-drawRectangle(50, 120, 400, 100, "Grey", "Grey");
+drawRectangle(310, 41, 20, 100, "Silver", "Silver");
+drawRectangle(50, 120, 400, 100, "Silver", "Silver");
   //Road 
 drawRectangle(00, 280, 1000, 300, "Black", "Black");
 //Road lane dividers
