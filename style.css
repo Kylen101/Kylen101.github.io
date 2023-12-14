@@ -172,3 +172,7 @@ canvas {
 #vote {
   color: black;
 }
+/*vehicle images width*/
+.car2 {
+  width: 850px;
+}
