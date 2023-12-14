@@ -78,18 +78,19 @@ drawCircle(400, 230, 40, "Grey", "Black");
 //Car rectangles
 drawRectangle(210, 41, 120, 100, "Green", "Green");
 drawRectangle(50, 120, 400, 100, "Green", "Green");
+  //Road 
+drawRectangle(00, 280, 1000, 300, "Black", "Black");
 //Road lane dividers
 drawRectangle(200, 400, 100, 50, "Yellow", "Yellow");
 drawRectangle(700, 400, 200, 50, "Yellow", "Yellow");
 //Windisheld
 drawTriangle(330, 41, 330, 121, 400, 121, "Blue", "Black");
 //Sign pole
-drawRectangle(595, 179, 10, 103, "Grey", "Grey");
+drawRectangle(595, 179, 10, 100, "Grey", "Grey");
 //Sign
 drawOctagon(595, -124, 80, "Red", "Black");
 //Sign text
-drawText("60px Highway Gothic", "Stop", 535, 125,"White")
-
+drawText("60px Highway Gothic", "Stop", 540, 125,"White")
  
   requestAnimationFrame(cycle);
 }
