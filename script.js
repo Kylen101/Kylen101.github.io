@@ -76,13 +76,13 @@ drawCircle(400, 230, 50, "Black", "Black");
 drawCircle(100, 230, 40, "Grey", "Black");
 drawCircle(400, 230, 40, "Grey", "Black");
 //Car rectangles
-drawRectangle(310, 41, 80, 100, "Orange", "Orange");
-drawRectangle(50, 120, 400, 100, "Orange", "Orange");
+drawRectangle(210, 41, 120, 100, "Green", "Green");
+drawRectangle(50, 120, 400, 100, "Green", "Green");
 //Road lane dividers
 drawRectangle(200, 400, 100, 50, "Yellow", "Yellow");
-drawRectangle(700, 400, 100, 50, "Yellow", "Yellow");
+drawRectangle(700, 400, 200, 50, "Yellow", "Yellow");
 //Windisheld
-drawTriangle(390, 41, 390, 121, 450, 121, "Grey", "Black");
+drawTriangle(330, 41, 330, 121, 400, 121, "Blue", "Black");
 //Sign pole
 drawRectangle(595, 179, 10, 103, "Grey", "Grey");
 //Sign
