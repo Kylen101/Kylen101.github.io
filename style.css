@@ -85,7 +85,7 @@ a:active {
 }
 /*lightmode and lightmodediv go together*/
 .lightmodediv{
-  background:cyan;
+  background:purple;
   padding: 10px;
   display:flex;
   border-radius:15px;
