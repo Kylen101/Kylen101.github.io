@@ -86,9 +86,9 @@ drawRectangle(700, 400, 200, 50, "Yellow", "Yellow");
 //Windisheld
 drawTriangle(330, 41, 330, 121, 450, 121, "Blue", "Black");
 //Back triangle
-drawTriangle(310, 41, 50, 121, 310, 121, "Grey", "Grey");
+drawTriangle(310, 41, 50, 121, 310, 121, "Silver", "Silver");
 //Sign pole
-drawRectangle(595, 179, 10, 100, "Grey", "Grey");
+drawRectangle(595, 179, 10, 100, "Silver", "Silver");
 //Sign
 drawOctagon(595, -124, 80, "Red", "Black");
 //Sign text
