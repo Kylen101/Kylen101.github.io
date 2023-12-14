@@ -90,26 +90,7 @@ a:active {
   display:flex;
   border-radius:15px;
 }
-/*This is spinning code, currently unused*/
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.spinanim {
-  width: 100px;
-  height: 100px;
-  animation-name: spin;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
 @media only screen and (max-width: 600px) {
   .backandforthanim{
     animation-duration:1s;
